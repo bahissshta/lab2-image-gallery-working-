@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #120323;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 25px;
+    color: #97bf04;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+body img {
+    display: block;
+    margin: 15px auto; /* Reduced vertical padding between image and buttons */
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    max-height: 600px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.6), 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+figure button {
+    padding: 10px 20px;
+    background-color: #d9043d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px; /* Added padding to the bottom of the buttons */
+}
+
+figure button:hover {
+    background-color: #97bf04;
+}
+
